@@ -1,42 +1,33 @@
 <html>
-    <head>
-        <title> 
-           
-        </title>
-    </head>
-    <body>
-        <center>
-            <h1>
-                Project on console
-            </h1>
+<head>
+	<title>AI MUSIC WEB APP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-            <h5>
-                Write about virtual studio and how to set it up
-                Write about console screen and why it is used and how to open console screen and how to print anything on console
-            </h5>
-        </center>
-        <script>
-            var text1 ="My first console project";
-            console.log (text1);
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
 
-            var name ="SrishtiGanesh";
-            console.log (name);
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js"></script>
 
-            var n1 =16;
-            var n2 =4;
+  <link rel="stylesheet" type="text/css" href="style.css">
 
-            var add =n1+n2;
-            console.log (add); 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+ 
+</head>
+<body background="background.jpeg">
+<center>
+  	<h3 class="btn btn-warning heading">AI MUSIC WEB APP
+	    <br>
+	    <span class="note">NOTE - Get your left-hand wrist in front of the webcam to play Peter Pan Song. 
+			Get your right-hand wrist in front of the webcam to play Harry Potter Theme Song</span>
+  	</h3>
 
-            var subtract =n1-n2;
-            console.log (subtract);
+	<br><br>
+	<h3 class="btn btn-danger" id="song">Song Name</h3>
+</center>
 
-            var multiply =n1*n2;
-            console.log (multiply);
-
-            var divide =n1/n2;
-            console.log (divide);
-
-        </script>
-    </body>
+<script src="main.js"></script>
+</body>
 </html>
